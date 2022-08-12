@@ -5,8 +5,8 @@ on:
      types: [build]
  #  schedule:
  #
- #    - cron: "0/5 * * * *"
- # #  - cron: "0/7 * * * *"
+ ##   - cron: "0/5 * * * *"
+ #    - cron: "0/7 * * * *"
  # push:
   pull_request:
      types: [closed, assigned, opened, reopened]
