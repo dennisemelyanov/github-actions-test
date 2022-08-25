@@ -10,6 +10,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 6
-        name: Log node version
+      - name: Log node version
         run: node -v
 
